@@ -72,7 +72,7 @@
   color: white;
   text-decoration: none;
   box-shadow: 0px 5px 20px 0px #382ae177;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .payment:hover {
@@ -80,7 +80,7 @@
 }
 
 .cancel {
-  padding: 15px;
+  padding: 5px;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1rem;
@@ -102,4 +102,60 @@ body {
   justify-content: center;
   background: url(../img/pattern-background-desktop.svg) no-repeat center /
     cover;
+}
+
+/* MEDIA */
+
+@media (max-width: 450px) {
+  #main {
+    max-width: 325px;
+    border-radius: 25px;
+    display: grid;
+    box-shadow: 0px 25px 30px 0px #382ae133;
+  }
+
+  .bottom-info {
+    width: 100%;
+    padding: 25px;
+    padding-top: 35px;
+  }
+
+  .main-h1 {
+    color: #1f2f56;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  .main-plan {
+    padding: 20px 15px;
+    gap: 20px;
+  }
+
+  .plan-p1 {
+    font-size: .85rem;
+  }
+  
+  .plan-p2 {
+    font-size: .85rem;
+
+  }
+
+  .plan-change {
+    padding-left: 20px;
+  }
+
+  .payment {
+    background: #382ae1;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 5px 20px 0px #382ae177;
+  }
+
+  body {
+    background: url(../img/pattern-background-mobile.svg) no-repeat center /
+    cover;
+  }
 }
