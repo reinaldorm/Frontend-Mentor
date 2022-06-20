@@ -1,5 +1,5 @@
 # Frontend-mentor - Personal.
-Repository witha few resolutions of Frontend Mentor challenges.
+Repository with few resolutions of Frontend Mentor challenges.
 
 <table>
 <header>
