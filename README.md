@@ -13,17 +13,17 @@ Repository with few resolutions of Frontend Mentor challenges.
   </tr>
 </header>
 <tr>
-  <td>01 - Interactive rating component</td>
+  <td>01 - Interactive Rating Component</td>
   <td>html, css</td>
   <td><a href="#waiting" target="_blank">Preview</a></td>
 </tr>
 <tr>
-  <td>02 - QR code component</td>
+  <td>02 - QR Code Component</td>
   <td>html, css</td>
   <td><a href="#waiting" target="_blank">Preview</a></td>
 </tr>
 <tr>
-  <td>03 - NFT preview card component</td>
+  <td>03 - NFT Preview Card Component</td>
   <td>html, css</td>
   <td><a href="#waiting" target="_blank">Preview</a></td>
 </tr>
