@@ -27,7 +27,7 @@
   height: calc(100% - 5px);
   border-radius: 8px;
   position: absolute;
-  background: url(../images/icon-view.svg) no-repeat center
+  background: url(images/icon-view.svg) no-repeat center
     rgba(0, 255, 247, 0.5);
   z-index: 5;
   opacity: 0;
@@ -71,7 +71,7 @@
 }
 
 .main-price::before {
-  content: url(../images/icon-ethereum.svg);
+  content: url(images/icon-ethereum.svg);
 }
 
 .main-time {
@@ -82,7 +82,7 @@
 }
 
 .main-time::before {
-  content: url(../images/icon-clock.svg);
+  content: url(images/icon-clock.svg);
 }
 
 .bottom-info {
