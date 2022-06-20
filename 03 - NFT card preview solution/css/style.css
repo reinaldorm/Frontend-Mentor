@@ -1,0 +1,138 @@
+#main-wrapper {
+  display: grid;
+  padding: 20px 20px 30px 20px;
+  max-width: 320px;
+  border-radius: 15px;
+  background: hsl(216, 50%, 16%);
+  gap: 20px;
+  box-shadow: 0px 5px 30px 10px #0b1524;
+}
+
+.main-img-wrapper {
+  position: relative;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.main-img:hover {
+  cursor: pointer;
+}
+
+.img-overlay {
+  width: 100%;
+  height: calc(100% - 5px);
+  border-radius: 8px;
+  position: absolute;
+  background: url(../images/icon-view.svg) no-repeat center
+    rgba(0, 255, 247, 0.5);
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.main-img-wrapper .img-overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.main-h1 {
+  color: white;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+
+.main-h1:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+.main-p1 {
+  color: hsl(214, 33%, 60%);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.price-time-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.main-price {
+  color: #00fff7;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 6px;
+}
+
+.main-price::before {
+  content: url(../images/icon-ethereum.svg);
+}
+
+.main-time {
+  color: #8bacda;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 6px;
+}
+
+.main-time::before {
+  content: url(../images/icon-clock.svg);
+}
+
+.bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.main-p2 {
+  color: #8bacda;
+  font-size: 0.85rem;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.bottom-avatar {
+  outline: #fff solid 1px;
+  border-radius: 50%;
+}
+
+.bottom-name {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.bottom-name:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+/* RAW TAGS */
+
+body {
+  background: #0d192b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
