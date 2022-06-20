@@ -27,11 +27,13 @@
   height: calc(100% - 5px);
   border-radius: 8px;
   position: absolute;
-  background: url(images/icon-ethereum.svg) no-repeat center
-    rgba(0, 255, 247, 0.5);
+  background: rgba(0, 255, 247, 0.5);
   z-index: 5;
   opacity: 0;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-img-wrapper .img-overlay:hover {
