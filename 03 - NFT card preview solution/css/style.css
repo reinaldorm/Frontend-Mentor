@@ -73,7 +73,7 @@
 }
 
 .main-price::before {
-  content: url("images/icon-ethereum.svg");
+  content: url(./images/icon-ethereum.svg);
 }
 
 .main-time {
@@ -84,7 +84,7 @@
 }
 
 .main-time::before {
-  content: url("images/icon-clock.svg");
+  content: url(./images/icon-clock.svg);
 }
 
 .bottom-info {
